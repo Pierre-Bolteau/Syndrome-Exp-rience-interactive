@@ -174,21 +174,12 @@
 }
 
 @font-face {
-	font-family: Dancing Script;
+	font-family: Crimson Text;
 	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/DancingScript-Regular.eot');
-	src: url('fonts/DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/DancingScript-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Dancing Script;
-	font-weight: bold;
-	font-style: normal;
-	src: url('fonts/DancingScript-Bold.eot');
-	src: url('fonts/DancingScript-Bold.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/DancingScript-Bold.ttf') format('truetype');
+	font-style: italic;
+	src: url('fonts/CrimsonText-Italic.eot');
+	src: url('fonts/CrimsonText-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/CrimsonText-Italic.ttf') format('truetype');
 }
 
 @font-face {
@@ -201,12 +192,28 @@
 }
 
 @font-face {
-	font-family: Crimson Text;
+	font-family: Dancing Script;
+	font-weight: bold;
+	font-style: normal;
+	src: url('fonts/DancingScript-Bold.eot');
+	src: url('fonts/DancingScript-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/DancingScript-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Dancing Script;
 	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/CrimsonText-Italic.eot');
-	src: url('fonts/CrimsonText-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/CrimsonText-Italic.ttf') format('truetype');
+	font-style: normal;
+	src: url('fonts/DancingScript-Regular.eot');
+	src: url('fonts/DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/DancingScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Freeman;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/Freeman-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -219,10 +226,12 @@
 }
 
 @font-face {
-	font-family: Freeman;
+	font-family: Lato;
 	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/Freeman-Regular.ttf') format('truetype');
+	font-style: italic;
+	src: url('fonts/Lato-Italic.eot');
+	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Lato-Italic.ttf') format('truetype');
 }
 
 @font-face {
@@ -236,29 +245,20 @@
 
 @font-face {
 	font-family: Lobster Two;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/LobsterTwo-Italic.eot');
-	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lato;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Lato-Italic.eot');
-	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Lato-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lobster Two;
 	font-weight: bold;
 	font-style: normal;
 	src: url('fonts/LobsterTwo-Bold.eot');
 	src: url('fonts/LobsterTwo-Bold.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/LobsterTwo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lobster Two;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/LobsterTwo-Italic.eot');
+	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
 }
 
 @font-face {
