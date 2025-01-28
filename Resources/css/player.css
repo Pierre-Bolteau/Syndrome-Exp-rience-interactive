@@ -1,0 +1,71 @@
+/*  This CSS file is CUSTOMIZABLE */
+/*  Copy-paste and modify the classes you need to modify (files from Player/css/player), this will overwrite the default values */
+/*  For more informations, you can check our GITHUB @ https://github.com/Klynt/Klynt-Player/wiki/CSSArchitecture */
+
+.klynt-button-9{
+    opacity: 0 !important;
+}
+.mejs-overlay-button{
+    opacity: 0 !important;
+}
+
+/* bouton animée clap/micro */
+@media (min-width: 1000px) {
+  .bouton-clap-animée { display: block !important; }
+  .bouton-clap-animée-tel { display: none !important; }
+}
+@media (min-width: 1000px) {
+  .bouton-micro-animée { display: block !important; }
+  .bouton-micro-animée-tel { display: none !important; }
+}
+@media (max-width: 1000px) {
+  .bouton-clap-animée-tel { display: block !important; }
+  .bouton-clap-animée { display: none !important; }
+}
+@media (max-width: 1000px) {
+  .bouton-micro-animée-tel { display: block !important; }
+  .bouton-micro-animée { display: none !important; }
+}
+
+/* barre de navigation */
+@media (min-width: 1000px) {
+  .nav { display: block !important; }
+  .nav-tel { display: none !important; }
+}
+@media (max-width: 1000px) {
+  .nav-tel { display: block !important; }
+  .nav { display: none !important; }
+}
+
+/* galerie du making of */
+@media (min-width: 1000px) {
+  .galerie-making-of{ display: block !important; }
+  .galerie-making-of-tel { display: none !important; }
+}
+@media (max-width: 1000px) {
+  .galerie-making-of-tel { display: block !important; }
+  .galerie-making-of { display: none !important; }
+}
+
+/* interview */
+@media (min-width: 1000px) {
+  .habillage-intreview { display: block !important; }
+  .habillage-intreview-tel { display: none !important; }
+}
+@media (max-width: 1000px) {
+  .habillage-intreview-tel { display: block !important; }
+  .habillage-intreview { display: none !important; }
+}
+
+/* format medium */
+@media (min-width: 768px) and (max-width: 1000px)  {
+  .large-medium { display: block !important; }
+  .small { display: none !important; }
+}
+
+
+/* format small */
+@media (max-width: 768px)  {
+  .large-medium { display: none !important; }
+  .small { display: block !important; }
+}
