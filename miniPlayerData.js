@@ -2,14 +2,14 @@ klynt.miniPlayerData = {
     "thanksForWatchingWording": "Merci de votre visite !",
     "resumePlaybackWording": "Relancer la lecture ?",
     "fullscreenInfoWording": "Ce programme va se lancer en plein écran",
-    "yesWording": "Oui",
+    "thumbnail": "Medias/Photos/porte_Plan_de_travail_2.png",
     "title": "Syndrome : Une Expérience Interactive",
-    "downloadAppWording": "Télécharger l'app",
     "noWording": "Non",
     "analyticsKey": "",
-    "redirectToMobileApp": "auto",
     "launchAppWording": "Et lancer le projet",
-    "thumbnail": "Medias/Photos/porte_Plan_de_travail_2.png",
+    "yesWording": "Oui",
+    "downloadAppWording": "Télécharger l'app",
     "url": "",
+    "redirectToMobileApp": "auto",
     "description": "Webdocumentaire interactif sur le court-métrage Syndrome."
 }
