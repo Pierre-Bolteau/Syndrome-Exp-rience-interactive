@@ -8,6 +8,8 @@ klynt.data = {
                 "type": "index",
                 "params": {
                     "displayDescriptions": true,
+                    "displayDuration": true,
+                    "layout": "grid",
                     "sequences": [
                         "161D0CB4-4F17-4008-7418-AFB4431BBD50",
                         "FC33CD5A-8D5C-846F-BEC8-AFBCF1C20690",
@@ -30,9 +32,7 @@ klynt.data = {
                         "EB37CD12-DA4B-301B-ABFD-928113E35EDB",
                         "B694EABB-D736-09D8-31B1-93781C692C67",
                         "56FFE35F-43E5-1DB6-531F-97504159C9FE"
-                    ],
-                    "layout": "grid",
-                    "displayDuration": true
+                    ]
                 },
                 "label": "Index",
                 "id": "61A923D1-EC90-0E9E-33F0-AFB443032F34"
@@ -82,20 +82,68 @@ klynt.data = {
         "remoteVideosAPIURL": "http://api.klynt.net/video/klynt-video-api.php",
         "enableScrollNavigation": true
     },
+    "aliases": {
+        "idToAlias": {
+            "101747CB-E9D8-CF0E-5B88-8ED288B1B9C7": "Difficulté-Amandine",
+            "0713E9BD-8544-E5A5-7F4B-BB8977149E43": "Podcast",
+            "966F718A-B576-591E-D634-8E8D07A37F2F": "Zahra-VLOG",
+            "FC33CD5A-8D5C-846F-BEC8-AFBCF1C20690": "Interview",
+            "56FFE35F-43E5-1DB6-531F-97504159C9FE": "Overlay-Film",
+            "B694EABB-D736-09D8-31B1-93781C692C67": "Info",
+            "CBC75E13-B4B5-72BF-2AFA-8E8E696E1112": "Pierre-acteur",
+            "D81AE38F-B395-2FAF-2E7A-82FDAC15727B": "Court-métrage",
+            "EB37CD12-DA4B-301B-ABFD-928113E35EDB": "Making_Off",
+            "6F619BD0-303D-CA24-2CBF-8E9500CDFD51": "Zahra-maquillage",
+            "F05E62D0-273F-DE45-9B5F-BAC49E897C8B": "Menu_Selection__behind_the_scene",
+            "204E9196-3276-AC57-07F0-833EBF4E2C02": "Les_Crédits",
+            "3BEA177E-7F68-4B7F-89B3-8E8F759F30A9": "Pierre-camera",
+            "B5F7033F-EE32-52AD-4CDA-8EC69E5C3BF0": "problème_d'espace",
+            "79301169-ACD3-C53D-C4DA-8E887D329514": "Amandine-actrice",
+            "37D32B00-7B56-0F6B-0A81-8ED170C1255A": "Difficulté-Selma",
+            "D42E639E-934E-7E63-5630-8ED3D029F720": "Difficulté-Pierre",
+            "3F44FA00-3F4E-00D3-DA79-F966754F21DA": "Page_d'introduction",
+            "161D0CB4-4F17-4008-7418-AFB4431BBD50": "Accueil",
+            "31A0232A-3BE4-D360-2377-8EC92D4D571C": "Moment-marquant-Pierre",
+            "C11F8C3A-38CC-290E-37D4-8E8032E5D923": "Thomas-réalisateur"
+        },
+        "aliasToId": {
+            "Pierre-camera": "3BEA177E-7F68-4B7F-89B3-8E8F759F30A9",
+            "Accueil": "161D0CB4-4F17-4008-7418-AFB4431BBD50",
+            "Thomas-réalisateur": "C11F8C3A-38CC-290E-37D4-8E8032E5D923",
+            "Les_Crédits": "204E9196-3276-AC57-07F0-833EBF4E2C02",
+            "Info": "B694EABB-D736-09D8-31B1-93781C692C67",
+            "Amandine-actrice": "79301169-ACD3-C53D-C4DA-8E887D329514",
+            "Zahra-VLOG": "966F718A-B576-591E-D634-8E8D07A37F2F",
+            "Menu_Selection__behind_the_scene": "F05E62D0-273F-DE45-9B5F-BAC49E897C8B",
+            "Podcast": "0713E9BD-8544-E5A5-7F4B-BB8977149E43",
+            "Page_d'introduction": "3F44FA00-3F4E-00D3-DA79-F966754F21DA",
+            "Zahra-maquillage": "6F619BD0-303D-CA24-2CBF-8E9500CDFD51",
+            "Difficulté-Amandine": "101747CB-E9D8-CF0E-5B88-8ED288B1B9C7",
+            "Difficulté-Selma": "37D32B00-7B56-0F6B-0A81-8ED170C1255A",
+            "Making_Off": "EB37CD12-DA4B-301B-ABFD-928113E35EDB",
+            "Difficulté-Pierre": "D42E639E-934E-7E63-5630-8ED3D029F720",
+            "Court-métrage": "D81AE38F-B395-2FAF-2E7A-82FDAC15727B",
+            "Moment-marquant-Pierre": "31A0232A-3BE4-D360-2377-8EC92D4D571C",
+            "Interview": "FC33CD5A-8D5C-846F-BEC8-AFBCF1C20690",
+            "Pierre-acteur": "CBC75E13-B4B5-72BF-2AFA-8E8E696E1112",
+            "problème_d'espace": "B5F7033F-EE32-52AD-4CDA-8EC69E5C3BF0",
+            "Overlay-Film": "56FFE35F-43E5-1DB6-531F-97504159C9FE"
+        }
+    },
     "mainSequence": "3F44FA00-3F4E-00D3-DA79-F966754F21DA",
     "miniPlayer": {
-        "thanksForWatchingWording": "Merci de votre visite !",
+        "launchAppWording": "Et lancer le projet",
         "resumePlaybackWording": "Relancer la lecture ?",
         "fullscreenInfoWording": "Ce programme va se lancer en plein écran",
         "thumbnail": "Medias/Photos/porte_Plan_de_travail_2.png",
         "title": "Syndrome : Une Expérience Interactive",
+        "thanksForWatchingWording": "Merci de votre visite !",
         "noWording": "Non",
         "analyticsKey": "",
-        "launchAppWording": "Et lancer le projet",
         "yesWording": "Oui",
-        "downloadAppWording": "Télécharger l'app",
-        "url": "",
         "redirectToMobileApp": "auto",
+        "url": "",
+        "downloadAppWording": "Télécharger l'app",
         "description": "Webdocumentaire interactif sur le court-métrage Syndrome."
     },
     "footer": {
@@ -145,27 +193,27 @@ klynt.data = {
         ]
     },
     "wording": {
-        "your_are_here": "Vous êtes ici",
         "total_duration": "(durée totale : {0})",
+        "program_percentage_viewed": "du programme vu",
         "keywords": "mots-clés",
-        "total_sequences": "séquences au total",
-        "program_percentage_viewed": "du programme vu"
+        "your_are_here": "Vous êtes ici",
+        "total_sequences": "séquences au total"
     },
     "share": {
         "enableLinkedIn": true,
         "enableTumblr": false,
         "customSizeWording": "Personnalisé",
-        "originalSizeWording": "Original",
+        "thumbnail": null,
         "playerWording": "Player",
         "displayMiniPlayerWording": true,
         "miniPlayerWording": "Mini player",
-        "shortMessage": "",
+        "originalSizeWording": "Original",
         "horizontalWording": "Horizontal",
-        "thumbnail": null,
         "shareSequenceWording": "Partager la séquence",
         "linkWording": "Lien",
         "verticalWording": "Vertical",
         "socialNetworksWording": "Réseaux sociaux",
+        "shortMessage": "",
         "embedWording": "Intégrer",
         "title": "Syndrome : Une Expérience Interactive",
         "removeViaKlynt": true,
@@ -173,68 +221,20 @@ klynt.data = {
         "link": null,
         "enableGooglePlus": false
     },
-    "aliases": {
-        "aliasToId": {
-            "Pierre-acteur": "CBC75E13-B4B5-72BF-2AFA-8E8E696E1112",
-            "Making_Off": "EB37CD12-DA4B-301B-ABFD-928113E35EDB",
-            "Podcast": "0713E9BD-8544-E5A5-7F4B-BB8977149E43",
-            "Difficulté-Amandine": "101747CB-E9D8-CF0E-5B88-8ED288B1B9C7",
-            "Accueil": "161D0CB4-4F17-4008-7418-AFB4431BBD50",
-            "problème_d'espace": "B5F7033F-EE32-52AD-4CDA-8EC69E5C3BF0",
-            "Court-métrage": "D81AE38F-B395-2FAF-2E7A-82FDAC15727B",
-            "Info": "B694EABB-D736-09D8-31B1-93781C692C67",
-            "Zahra-VLOG": "966F718A-B576-591E-D634-8E8D07A37F2F",
-            "Amandine-actrice": "79301169-ACD3-C53D-C4DA-8E887D329514",
-            "Thomas-réalisateur": "C11F8C3A-38CC-290E-37D4-8E8032E5D923",
-            "Moment-marquant-Pierre": "31A0232A-3BE4-D360-2377-8EC92D4D571C",
-            "Pierre-camera": "3BEA177E-7F68-4B7F-89B3-8E8F759F30A9",
-            "Difficulté-Selma": "37D32B00-7B56-0F6B-0A81-8ED170C1255A",
-            "Overlay-Film": "56FFE35F-43E5-1DB6-531F-97504159C9FE",
-            "Les_Crédits": "204E9196-3276-AC57-07F0-833EBF4E2C02",
-            "Difficulté-Pierre": "D42E639E-934E-7E63-5630-8ED3D029F720",
-            "Menu_Selection__behind_the_scene": "F05E62D0-273F-DE45-9B5F-BAC49E897C8B",
-            "Page_d'introduction": "3F44FA00-3F4E-00D3-DA79-F966754F21DA",
-            "Interview": "FC33CD5A-8D5C-846F-BEC8-AFBCF1C20690",
-            "Zahra-maquillage": "6F619BD0-303D-CA24-2CBF-8E9500CDFD51"
-        },
-        "idToAlias": {
-            "101747CB-E9D8-CF0E-5B88-8ED288B1B9C7": "Difficulté-Amandine",
-            "0713E9BD-8544-E5A5-7F4B-BB8977149E43": "Podcast",
-            "966F718A-B576-591E-D634-8E8D07A37F2F": "Zahra-VLOG",
-            "FC33CD5A-8D5C-846F-BEC8-AFBCF1C20690": "Interview",
-            "56FFE35F-43E5-1DB6-531F-97504159C9FE": "Overlay-Film",
-            "B694EABB-D736-09D8-31B1-93781C692C67": "Info",
-            "CBC75E13-B4B5-72BF-2AFA-8E8E696E1112": "Pierre-acteur",
-            "D81AE38F-B395-2FAF-2E7A-82FDAC15727B": "Court-métrage",
-            "EB37CD12-DA4B-301B-ABFD-928113E35EDB": "Making_Off",
-            "6F619BD0-303D-CA24-2CBF-8E9500CDFD51": "Zahra-maquillage",
-            "F05E62D0-273F-DE45-9B5F-BAC49E897C8B": "Menu_Selection__behind_the_scene",
-            "204E9196-3276-AC57-07F0-833EBF4E2C02": "Les_Crédits",
-            "3BEA177E-7F68-4B7F-89B3-8E8F759F30A9": "Pierre-camera",
-            "B5F7033F-EE32-52AD-4CDA-8EC69E5C3BF0": "problème_d'espace",
-            "79301169-ACD3-C53D-C4DA-8E887D329514": "Amandine-actrice",
-            "37D32B00-7B56-0F6B-0A81-8ED170C1255A": "Difficulté-Selma",
-            "D42E639E-934E-7E63-5630-8ED3D029F720": "Difficulté-Pierre",
-            "3F44FA00-3F4E-00D3-DA79-F966754F21DA": "Page_d'introduction",
-            "161D0CB4-4F17-4008-7418-AFB4431BBD50": "Accueil",
-            "31A0232A-3BE4-D360-2377-8EC92D4D571C": "Moment-marquant-Pierre",
-            "C11F8C3A-38CC-290E-37D4-8E8032E5D923": "Thomas-réalisateur"
-        }
-    },
     "general": {
         "overlayCloseButtonRight": 16,
+        "ratio": "16/9",
         "overlayCloseButtonTop": 16,
         "title": "Syndrome : Une Expérience Interactive",
         "overlayCloseButtonWidth": 152,
         "overlayCloseButtonHeight": 144,
-        "projectId": "7DE234BF-96C3-7705-7ECC-AFB439345B92",
         "width": 970,
         "height": 545,
         "level": 5,
         "creationDate": 1733819644212,
         "description": "Un webdocumentaire interactif réalisé dans le cadre d’une Situation d’Apprentissage et d’Expérience (SAE).\nSon sujet est Syndrome, un court-métrage que j’ai réalisé avec mon équipe pour participer à l’édition 2025 du Nikon Film Festival. \nVous pourrez y trouver le court-métrage, des interviews de l’équipe, notre podcast YouTube ainsi que des coulisses du tournage.",
         "projectHost": "",
-        "modificationDate": 1738111027567,
+        "modificationDate": 1738239440399,
         "analyticsKey": "",
         "username": "PierreBolteau",
         "overlayCloseButtonImage": "Player/css/editor/img/close.png",
@@ -247,7 +247,7 @@ klynt.data = {
         "secondaryColor": 16777215,
         "tertiaryColor": 15286861,
         "mainFontName": "Freeman",
-        "ratio": "16/9",
+        "projectId": "7DE234BF-96C3-7705-7ECC-AFB439345B92",
         "mainFontSize": 14
     },
     "sequences": {
@@ -267,7 +267,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/Amandine-difficulter-rec.mp4.jpg",
+                    "volume": 1,
                     "id": "DA523BF0-5710-D86F-F304-8ED51FD22B00",
                     "name": "Amandine-difficulter-rec.mp4",
                     "horizontalAlign": "center",
@@ -279,7 +279,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/Amandine-difficulter-rec.mp4.jpg",
                     "duration": "00:16.30",
                     "player": true,
                     "mediaWidth": 1920,
@@ -1018,6 +1018,7 @@ klynt.data = {
                     "right": "9.46",
                     "player": true,
                     "externalId": "t032qwKyqwM",
+                    "poster": "Medias/Posters/AUTOUR_DE_SYNDROME__1_-_Les_details_caches_du_film__et_pas_que_..._.jpg",
                     "volume": 1,
                     "scales": false,
                     "name": "AUTOUR DE SYNDROME #1 - Les détails cachés du film (et pas que ...)",
@@ -1028,7 +1029,6 @@ klynt.data = {
                     "autoplay": true,
                     "syncMaster": true,
                     "platform": "youtube",
-                    "poster": "Medias/Posters/AUTOUR_DE_SYNDROME__1_-_Les_details_caches_du_film__et_pas_que_..._.jpg",
                     "transitionIn": {
                         "type": "fade",
                         "duration": "1"
@@ -1340,7 +1340,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/zhara-VLog-rec.mp4.jpg",
+                    "volume": 1,
                     "id": "ED0618C9-39ED-0735-BDE6-8E91285080FA",
                     "name": "zhara-VLog-rec.mp4",
                     "horizontalAlign": "center",
@@ -1352,7 +1352,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/zhara-VLog-rec.mp4.jpg",
                     "duration": "00:57.77",
                     "player": true,
                     "mediaWidth": 1920,
@@ -4614,7 +4614,7 @@ klynt.data = {
                     "mediaWidth": 480,
                     "scaleMode": "zoom",
                     "mediaHeight": 270,
-                    "poster": "Medias/Posters/Interview-Syndrome___Une_Experience_Interactive.jpg",
+                    "volume": 1,
                     "id": "2E88CDE1-4E4F-D453-B22D-AE4E1F8DEC76",
                     "player": true,
                     "horizontalAlign": "center",
@@ -4627,15 +4627,15 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/Interview-Syndrome___Une_Experience_Interactive.jpg",
                     "verticalAlign": "middle",
-                    "name": "Interview-Syndrome : Une Expérience Interactive",
+                    "duration": "17:48.00",
                     "url": "https://youtu.be/aHKRJ1pwtpY",
                     "syncMaster": true,
                     "zIndex": 0,
                     "platform": "youtube",
                     "clipBegin": 0,
-                    "duration": "17:48.00"
+                    "name": "Interview-Syndrome : Une Expérience Interactive"
                 }
             ],
             "thumbnail": "Medias/Thumbnails/Icone-web-doc-clap-black-lumiere.png.png",
@@ -7018,7 +7018,7 @@ klynt.data = {
                 {
                     "left": "876.00",
                     "type": "txt-Title-1",
-                    "text": "<p style=\"text-align: left;\">Mon Webdocumentaire :</p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\">Bonjour et bienvenue sur mon Webdocumentaire !&nbsp;<br /> <br />Il&nbsp;&agrave; &eacute;tais r&eacute;aliser dans le cadre d'une situation d'apprentissage et d'exp&eacute;rience (SAE).<br /> <br />Son sujet est \"Syndrome\" un court-m&eacute;trage que j'ai r&eacute;aliser avec mon &eacute;quipe pour participie au &agrave; l'&eacute;dition 2025 du Nikon film festival.</p>",
+                    "text": "<p style=\"text-align: left;\">Mon webdocumentaire :</p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\">Bonjour et bienvenue sur mon webdocumentaire !</p>\n<p style=\"text-align: left;\">Il a &eacute;t&eacute; r&eacute;alis&eacute; dans le cadre d&rsquo;une Situation d&rsquo;Apprentissage et d&rsquo;Exp&eacute;rience (SAE).</p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\">Son sujet : Syndrome, un court-m&eacute;trage que j&rsquo;ai r&eacute;alis&eacute; avec mon &eacute;quipe pour participer &agrave; l&rsquo;&eacute;dition 2025 du Nikon Film Festival.</p>",
                     "id": "B02B0A80-B04D-B43C-7BCD-98FB3A7F6BED",
                     "transitionIn": {
                         "type": "fade",
@@ -7038,7 +7038,7 @@ klynt.data = {
                 {
                     "left": "124.00",
                     "type": "txt-Title-1",
-                    "text": "<p style=\"text-align: left;\">A propos de moi :</p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\">Salut moi c'est pierre bolteau j'ai 21 et je suis actuelement en deuxi&egrave;me ann&eacute;es de BUT MMI &agrave; l'IUT de Cergy-Pontoise sur le site de sarcelles.</p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\">Et comme vous l'aurai peut-&ecirc;tre deviner avec l'identiter graphique tr&eacute;s prononcer de mon webdocumentaire, je suis sp&eacute;cialiser en cr&eacute;ation num&eacute;rique et j'adore le motion design.</p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\">Par ailleur je suis activement &agrave; la recherche d'une alternance et d'un stage qui d&eacute;butera le 14 avril 2025, si mon profils vous int&eacute;raisse n'h&eacute;siter pas a mon contacter.</p>",
+                    "text": "<p style=\"text-align: left; \"><span style=\"font-size: 20pt; \">&Agrave; propos de moi :</span></p>\n<p style=\"text-align: left; \">&nbsp;</p>\n<p style=\"text-align: left; \"><span style=\"font-size: 20pt; \">Salut, moi, c&rsquo;est Pierre Bolteau ! J&rsquo;ai 21 ans et je suis actuellement en deuxi&egrave;me ann&eacute;e de BUT MMI &agrave; l&rsquo;IUT de Cergy-Pontoise, sur le site de Sarcelles.</span></p>\n<p style=\"text-align: left; \">&nbsp;</p>\n<p style=\"text-align: left; \"><span style=\"font-size: 20pt; \">Comme vous l&rsquo;aurez peut-&ecirc;tre devin&eacute; &agrave; travers l&rsquo;identit&eacute; graphique marqu&eacute;e de mon webdocumentaire, je suis passionn&eacute; par la cr&eacute;ation num&eacute;rique et sp&eacute;cialis&eacute; en motion design.</span></p>\n<p style=\"text-align: left; \">&nbsp;</p>\n<p style=\"text-align: left; \"><span style=\"font-size: 20pt; \">Actuellement, je suis &agrave; la recherche d&rsquo;une alternance ainsi que d&rsquo;un stage &agrave; partir du 14 avril 2025.</span></p>\n<p style=\"text-align: left; \">&nbsp;</p>\n<p style=\"text-align: left; \"><span style=\"font-size: 20pt; \">Si mon profil vous int&eacute;resse, n&rsquo;h&eacute;sitez pas &agrave; me contacter !</span></p>\n<p style=\"text-align: left; \">&nbsp;</p>",
                     "id": "B9DAD77A-6B2C-5CF2-7184-98FB4D7892F8",
                     "transitionIn": {
                         "type": "fade",
@@ -7058,7 +7058,7 @@ klynt.data = {
                 {
                     "left": "35.00",
                     "type": "txt-Title-1",
-                    "text": "<p style=\"text-align: left;\"><span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px;\">Mon webdocumentaire :</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">Bonjour et bienvenue sur mon webdocumentaire !</span><br /><span style=\"font-size: 10pt;\">Il a &eacute;t&eacute; r&eacute;alis&eacute; dans le cadre d&rsquo;une Situation d&rsquo;Apprentissage et d&rsquo;Exp&eacute;rience (SAE).</span><br /><span style=\"font-size: 10pt;\">Son sujet est Syndrome, un court-m&eacute;trage que j&rsquo;ai r&eacute;alis&eacute; avec mon &eacute;quipe pour participer &agrave; l&rsquo;&eacute;dition 2025 du Nikon Film Festival.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">&nbsp;</span></span></p>",
+                    "text": "<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">Mon webdocumentaire :</span></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">Bonjour et bienvenue sur mon webdocumentaire !</span><br /><span style=\"font-size: 10pt;\">Il a &eacute;t&eacute; r&eacute;alis&eacute; dans le cadre d&rsquo;une Situation d&rsquo;Apprentissage et d&rsquo;Exp&eacute;rience (SAE).</span></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">Son sujet : Syndrome, un court-m&eacute;trage que j&rsquo;ai r&eacute;alis&eacute; avec mon &eacute;quipe pour participer &agrave; l&rsquo;&eacute;dition 2025 du Nikon Film Festival.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">&nbsp;</span></span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: medium;\"><span class=\"Apple-style-span\" style=\"font-size: 13px; line-height: 15px;\">&nbsp;</span></span></p>",
                     "id": "8388E897-F1FB-8B03-9B26-93C2B669D0A5",
                     "transitionIn": {
                         "type": "fade",
@@ -7078,7 +7078,7 @@ klynt.data = {
                 {
                     "left": "28.00",
                     "type": "txt-Title-1",
-                    "text": "<p style=\"text-align: left;\">&nbsp;<span class=\"Apple-style-span\" style=\"line-height: 15px; font-size: 13px; \">&Agrave; propos de moi :</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">Salut, moi, c&rsquo;est Pierre Bolteau, j&rsquo;ai 21 ans et je suis actuellement en deuxi&egrave;me ann&eacute;e de BUT MMI &agrave; l&rsquo;IUT de Cergy-Pontoise, sur le site de Sarcelles.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">Et comme vous l&rsquo;aurez peut-&ecirc;tre devin&eacute; avec l&rsquo;identit&eacute; graphique tr&egrave;s prononc&eacute;e de mon webdocumentaire, je suis sp&eacute;cialis&eacute; en cr&eacute;ation num&eacute;rique et j&rsquo;adore le motion design.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">Par ailleurs, je suis activement &agrave; la recherche d&rsquo;une alternance et d&rsquo;un stage d&eacute;butant le 14 avril 2025.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\">Si mon profil vous int&eacute;resse, n&rsquo;h&eacute;sitez pas &agrave; me contacter.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 10pt;\"><span class=\"Apple-style-span\" style=\"line-height: 15px;\">&nbsp;</span></span></p>",
+                    "text": "<p style=\"text-align: left; \"><span style=\"font-size: 10pt; \">&Agrave; propos de moi :</span></p>\n<p style=\"text-align: left; \"><span style=\"font-size: 10pt; \">Salut, moi, c&rsquo;est Pierre Bolteau ! J&rsquo;ai 21 ans et je suis actuellement en deuxi&egrave;me ann&eacute;e de BUT MMI &agrave; l&rsquo;IUT de Cergy-Pontoise, sur le site de Sarcelles.</span></p>\n<p style=\"text-align: left; \">&nbsp;</p>\n<p style=\"text-align: left; \"><span style=\"font-size: 10pt; \">Comme vous l&rsquo;aurez peut-&ecirc;tre devin&eacute; &agrave; travers l&rsquo;identit&eacute; graphique marqu&eacute;e de mon webdocumentaire, je suis passionn&eacute; par la cr&eacute;ation num&eacute;rique et sp&eacute;cialis&eacute; en motion design.</span></p>\n<p style=\"text-align: left; \">&nbsp;</p>\n<p style=\"text-align: left; \"><span style=\"font-size: 10pt; \">Actuellement, je suis &agrave; la recherche d&rsquo;une alternance ainsi que d&rsquo;un stage &agrave; partir du 14 avril 2025.</span><br /><span style=\"font-size: 10pt; \">Si mon profil vous int&eacute;resse, n&rsquo;h&eacute;sitez pas &agrave; me contacter !</span></p>\n<p style=\"text-align: left; \"><span style=\"font-size: 10pt; \"><span class=\"Apple-style-span\" style=\"line-height: 15px;\">&nbsp;</span></span></p>",
                     "id": "45E288A9-71AF-1A3A-E67E-93B50BDB2DD9",
                     "transitionIn": {
                         "type": "fade",
@@ -7115,7 +7115,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/Pierre-acting-rec.mp4.jpg",
+                    "volume": 1,
                     "id": "DBD37359-7D12-6BB2-BECD-8E917F8728D3",
                     "name": "Pierre-acting-rec.mp4",
                     "horizontalAlign": "center",
@@ -7127,7 +7127,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/Pierre-acting-rec.mp4.jpg",
                     "duration": "00:22.06",
                     "player": true,
                     "mediaWidth": 1920,
@@ -7179,6 +7179,37 @@ klynt.data = {
             ],
             "tags": "Court-métrage,Syndrome,film",
             "hideInMindmap": false,
+            "externalVideos": [
+                {
+                    "autoplay": true,
+                    "horizontalAlign": "center",
+                    "scaleMode": "zoom",
+                    "mediaHeight": 270,
+                    "volume": 1,
+                    "id": "1E898F77-4527-5580-DC5D-AE576D4EA2F0",
+                    "player": true,
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "loop": false,
+                    "externalId": "JbMRvfr9ddg",
+                    "databegin": "00:01.56",
+                    "dataend": "02:22.62",
+                    "fitToWindow": true,
+                    "poster": "Medias/Posters/Syndrome-Nikon_Film_Festival_2025.jpg",
+                    "verticalAlign": "middle",
+                    "duration": "02:21.06",
+                    "url": "https://youtu.be/JbMRvfr9ddg",
+                    "mediaWidth": 480,
+                    "zIndex": 2,
+                    "platform": "youtube",
+                    "clipBegin": 0,
+                    "name": "Syndrome-Nikon Film Festival 2025"
+                }
+            ],
+            "thumbnail": "Medias/Thumbnails/icone-court-metrage.png.png",
+            "size": "medium",
             "shapes": [
                 {
                     "fitToWindow": true,
@@ -7218,8 +7249,6 @@ klynt.data = {
                     "dataend": "02:22.62"
                 }
             ],
-            "thumbnail": "Medias/Thumbnails/icone-court-metrage.png.png",
-            "size": "medium",
             "hideTitleInMindmap": false,
             "x": 793,
             "hideThumbnailInMindmap": false,
@@ -7231,18 +7260,14 @@ klynt.data = {
                     "horizontalAlign": "center",
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/Transition-fermeture-porte.mp4.jpg",
+                    "volume": 1,
                     "id": "FEBC5C71-4A92-D4A2-D077-A39F6D00779D",
                     "name": "Transition-fermeture-porte.mp4",
                     "loop": false,
                     "databegin": "00:00.00",
                     "dataend": "00:01.56",
                     "fitToWindow": true,
-                    "volume": 1,
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
+                    "poster": "Medias/Posters/Transition-fermeture-porte.mp4.jpg",
                     "duration": "00:01.56",
                     "player": true,
                     "mediaWidth": 1920,
@@ -7254,41 +7279,16 @@ klynt.data = {
                         }
                     ],
                     "mediaHeight": 1080,
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
                     "frameRate": 0
                 }
             ],
             "duration": 141.61635962210406,
             "color": "rgba(0,0,0,1)",
             "title": "Court-métrage",
-            "externalVideos": [
-                {
-                    "autoplay": true,
-                    "horizontalAlign": "center",
-                    "scaleMode": "zoom",
-                    "mediaHeight": 270,
-                    "poster": "Medias/Posters/Syndrome-Nikon_Film_Festival_2025.jpg",
-                    "id": "1E898F77-4527-5580-DC5D-AE576D4EA2F0",
-                    "player": true,
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "loop": false,
-                    "externalId": "JbMRvfr9ddg",
-                    "databegin": "00:01.56",
-                    "dataend": "02:22.62",
-                    "fitToWindow": true,
-                    "volume": 1,
-                    "verticalAlign": "middle",
-                    "name": "Syndrome-Nikon Film Festival 2025",
-                    "url": "https://youtu.be/JbMRvfr9ddg",
-                    "mediaWidth": 480,
-                    "zIndex": 2,
-                    "platform": "youtube",
-                    "clipBegin": 0,
-                    "duration": "02:21.06"
-                }
-            ],
             "id": "D81AE38F-B395-2FAF-2E7A-82FDAC15727B",
             "description": "Cette page permet de visionner le court-métrage Syndrome avant de visiter le reste du webdocumentaire interactif."
         },
@@ -9532,7 +9532,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/zhara-maquillage-rec.mp4.jpg",
+                    "volume": 1,
                     "id": "9C722DD5-8A4C-E34D-BF5C-8E991F460F2A",
                     "name": "zhara-maquillage-rec.mp4",
                     "horizontalAlign": "center",
@@ -9544,7 +9544,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/zhara-maquillage-rec.mp4.jpg",
                     "duration": "00:33.34",
                     "player": true,
                     "mediaWidth": 1920,
@@ -10323,7 +10323,7 @@ klynt.data = {
                         }
                     ],
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/Transition-fermeture-porte.mp4.jpg",
+                    "volume": 1,
                     "id": "CAA8DFDD-C27B-711B-C36F-63D5C0E99E46",
                     "name": "Transition-fermeture-porte.mp4",
                     "autoplay": true,
@@ -10331,11 +10331,7 @@ klynt.data = {
                     "databegin": "00:00.00",
                     "dataend": "00:01.56",
                     "zIndex": 0,
-                    "volume": 1,
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
+                    "poster": "Medias/Posters/Transition-fermeture-porte.mp4.jpg",
                     "scales": false,
                     "duration": "00:01.56",
                     "centerX": "1.14",
@@ -10344,6 +10340,10 @@ klynt.data = {
                     "scaleMode": "zoom",
                     "height": "1635.09",
                     "mediaHeight": 1080,
+                    "transitionOut": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
                     "frameRate": 0
                 },
                 {
@@ -10351,6 +10351,7 @@ klynt.data = {
                     "horizontalAlign": "center",
                     "verticalAlign": "middle",
                     "player": false,
+                    "poster": "Medias/Posters/Animations_Clap_black.mp4.jpg",
                     "volume": 1,
                     "scales": false,
                     "name": "Animations_Clap_black.mp4",
@@ -10393,7 +10394,6 @@ klynt.data = {
                             "target": "self"
                         }
                     ],
-                    "poster": "Medias/Posters/Animations_Clap_black.mp4.jpg",
                     "transitionIn": {
                         "type": "fade",
                         "duration": "1"
@@ -10417,6 +10417,7 @@ klynt.data = {
                     "left": "60.50",
                     "verticalAlign": "middle",
                     "player": false,
+                    "poster": "Medias/Posters/Animations_Clap_black.mp4.jpg",
                     "volume": 1,
                     "scales": false,
                     "name": "Animations_Clap_black.mp4",
@@ -10459,7 +10460,6 @@ klynt.data = {
                             "target": "self"
                         }
                     ],
-                    "poster": "Medias/Posters/Animations_Clap_black.mp4.jpg",
                     "transitionIn": {
                         "type": "fade",
                         "duration": "1"
@@ -10483,6 +10483,7 @@ klynt.data = {
                     "horizontalAlign": "center",
                     "verticalAlign": "middle",
                     "player": false,
+                    "poster": "Medias/Posters/Animations_Micro_black.mp4.jpg",
                     "volume": 1,
                     "scales": false,
                     "name": "Animations_Micro_black.mp4",
@@ -10525,7 +10526,6 @@ klynt.data = {
                             "target": "self"
                         }
                     ],
-                    "poster": "Medias/Posters/Animations_Micro_black.mp4.jpg",
                     "transitionIn": {
                         "type": "fade",
                         "duration": "1"
@@ -10549,6 +10549,7 @@ klynt.data = {
                     "left": "62.75",
                     "verticalAlign": "middle",
                     "player": false,
+                    "poster": "Medias/Posters/Animations_Micro_black.mp4.jpg",
                     "volume": 1,
                     "scales": false,
                     "name": "Animations_Micro_black.mp4",
@@ -10591,7 +10592,6 @@ klynt.data = {
                             "target": "self"
                         }
                     ],
-                    "poster": "Medias/Posters/Animations_Micro_black.mp4.jpg",
                     "transitionIn": {
                         "type": "fade",
                         "duration": "1"
@@ -11207,7 +11207,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/Pierre-camera-rec.mp4.jpg",
+                    "volume": 1,
                     "id": "A9D50D71-26A8-F691-4BF4-8E9215958050",
                     "name": "Pierre-camera-rec.mp4",
                     "horizontalAlign": "center",
@@ -11219,7 +11219,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/Pierre-camera-rec.mp4.jpg",
                     "duration": "00:16.55",
                     "player": true,
                     "mediaWidth": 1920,
@@ -11256,7 +11256,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/probmeme-espace-rec.mp4.jpg",
+                    "volume": 1,
                     "id": "81E6D9E9-A8FB-B33A-A7BD-8EC73E65A89C",
                     "name": "probmeme-espace-rec.mp4",
                     "horizontalAlign": "center",
@@ -11268,7 +11268,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/probmeme-espace-rec.mp4.jpg",
                     "duration": "01:51.25",
                     "player": true,
                     "mediaWidth": 1920,
@@ -11305,7 +11305,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/Amandine-acteur-rec.mp4.jpg",
+                    "volume": 1,
                     "id": "5D4F43E7-FDB8-D3A1-7B56-8E894C3BF2F9",
                     "name": "Amandine-acteur-rec.mp4",
                     "horizontalAlign": "center",
@@ -11317,7 +11317,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/Amandine-acteur-rec.mp4.jpg",
                     "duration": "00:31.10",
                     "player": true,
                     "mediaWidth": 1920,
@@ -11354,7 +11354,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/selma-difficulter-rec.mp4.jpg",
+                    "volume": 1,
                     "id": "841152F8-0CC6-6689-74C6-8ED4E8CBC3C7",
                     "name": "selma-difficulter-rec.mp4",
                     "horizontalAlign": "center",
@@ -11366,7 +11366,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/selma-difficulter-rec.mp4.jpg",
                     "duration": "00:09.22",
                     "player": true,
                     "mediaWidth": 1920,
@@ -11403,7 +11403,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/rec-what_sapp.mp4.jpg",
+                    "volume": 1,
                     "id": "8E0E23FD-37D9-67FC-BFB3-8ED489CDBCB4",
                     "name": "rec-what_sapp.mp4",
                     "horizontalAlign": "center",
@@ -11415,7 +11415,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/rec-what_sapp.mp4.jpg",
                     "duration": "00:29.93",
                     "player": true,
                     "mediaWidth": 1920,
@@ -11489,6 +11489,8 @@ klynt.data = {
             ],
             "tags": "Introduction,Intro-vidéo,Porte",
             "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/porte_Plan_de_travail_2.png.png",
+            "size": "large",
             "shapes": [
                 {
                     "link": {
@@ -11525,8 +11527,6 @@ klynt.data = {
                     "id": "A5B72E72-4C53-4172-3635-F967E96056F0"
                 }
             ],
-            "thumbnail": "Medias/Thumbnails/porte_Plan_de_travail_2.png.png",
-            "size": "large",
             "hideTitleInMindmap": false,
             "x": 101.93333333333337,
             "hideThumbnailInMindmap": false,
@@ -11539,7 +11539,7 @@ klynt.data = {
                     "classNames": "EcrantAcceuil",
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/ecran_d_acceuil_web_documentaire.mp4.jpg",
+                    "volume": 1,
                     "id": "52C62FE0-8278-C7A0-F6DE-F9678FCD681A",
                     "name": "ecran_d_acceuil_web_documentaire.mp4",
                     "horizontalAlign": "center",
@@ -11551,7 +11551,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/ecran_d_acceuil_web_documentaire.mp4.jpg",
                     "duration": "00:09.60",
                     "player": false,
                     "mediaWidth": 1920,
@@ -12286,6 +12286,8 @@ klynt.data = {
             ],
             "tags": "Accueil,Menu,Navigation,",
             "hideInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Icone-web-doc-maison-black-lumiere.png.png",
+            "size": "medium",
             "shapes": [
                 {
                     "centerY": "186.50",
@@ -12435,8 +12437,6 @@ klynt.data = {
                     "id": "626ECE27-E29F-B1FF-B0DC-68F232DBA64A"
                 }
             ],
-            "thumbnail": "Medias/Thumbnails/Icone-web-doc-maison-black-lumiere.png.png",
-            "size": "medium",
             "hideTitleInMindmap": false,
             "x": 425.95,
             "hideThumbnailInMindmap": false,
@@ -12454,7 +12454,7 @@ klynt.data = {
                         }
                     ],
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/Intro_menu_syndrome_web_documentaire_sans_titre.mp4.jpg",
+                    "volume": 1,
                     "id": "CBEF3E45-9715-37A1-C8C6-04461F809D66",
                     "name": "Intro_menu_syndrome_web_documentaire_sans_titre.mp4",
                     "transitionIn": {
@@ -12466,7 +12466,7 @@ klynt.data = {
                     "dataend": "00:10.89",
                     "zIndex": 0,
                     "autoplay": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/Intro_menu_syndrome_web_documentaire_sans_titre.mp4.jpg",
                     "scales": false,
                     "duration": "00:10.89",
                     "centerX": "10.37",
@@ -12783,7 +12783,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/VID_20241206_122522.mp4.jpg",
+                    "volume": 1,
                     "id": "55372FEE-0CDD-631E-1945-8ECEBE6157D6",
                     "name": "VID_20241206_122522.mp4",
                     "horizontalAlign": "center",
@@ -12795,7 +12795,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/VID_20241206_122522.mp4.jpg",
                     "duration": "01:07.35",
                     "player": true,
                     "mediaWidth": 1280,
@@ -12832,7 +12832,7 @@ klynt.data = {
                     "syncMaster": true,
                     "scaleMode": "zoom",
                     "verticalAlign": "middle",
-                    "poster": "Medias/Posters/thoma-realisateur-rec.mp4.jpg",
+                    "volume": 1,
                     "id": "2EB04022-A74C-FA00-7008-8E815558586D",
                     "name": "thoma-realisateur-rec.mp4",
                     "horizontalAlign": "center",
@@ -12844,7 +12844,7 @@ klynt.data = {
                         "duration": "1"
                     },
                     "fitToWindow": true,
-                    "volume": 1,
+                    "poster": "Medias/Posters/thoma-realisateur-rec.mp4.jpg",
                     "duration": "01:04.64",
                     "player": true,
                     "mediaWidth": 1920,
@@ -12870,10 +12870,10 @@ klynt.data = {
         "enabled": false,
         "position": "top-left",
         "image": "Player/css/editor/img/watermark.png",
+        "displayOnStartSequence": true,
         "action": {
             "type": "openSequence",
-            "target": null
-        },
-        "displayOnStartSequence": true
+            "target": "null"
+        }
     }
 }
